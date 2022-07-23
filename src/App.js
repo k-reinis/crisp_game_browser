@@ -1,4 +1,3 @@
-
 import './App.css';
 import Obstacle from './components/Obstacle';
 

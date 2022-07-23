@@ -1,3 +1,20 @@
 .obstacle {
     position: relative;
+    animation: move 5s linear infinite;
+    top: 0%;
 }
+
+@keyframes move {
+    from {
+        top: 0;
+    }
+    to {
+        top: 100%;
+    }
+}
+
+/* 0%   {top: 0px; left: 10px;}
+25%  {top: 50px; left: 50px;}
+50%  {top: 100px; left: 100px;}
+75%  {top: 150px; left: 150px;}
+100% {top: 200px; left: 200px;} */
